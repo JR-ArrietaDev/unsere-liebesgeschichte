@@ -3,7 +3,7 @@
   import AOS from 'aos';
   import 'aos/dist/aos.css';
   import WelcomeScreen from './components/WelcomeScreen.vue';
-  import TimelineItem from './components/TimelineItem.vue';
+  import TimelineItem from './components/TimeLineItem.vue';
   import SecretUnlock from './components/SecretUnlock.vue';
 
   import fotoJunio from './assets/timeline/timeL_01.webp';
@@ -38,7 +38,7 @@
   <div 
     v-else 
     class="relative min-h-screen px-6 py-12 bg-cover bg-center bg-no-repeat bg-fixed"
-    style="background-image: url('/src/assets/background.webp');">
+    style="background-image: url('/background.webp');">
     
     <!-- Capa de Superposición Oscura (El filtro que oscurece la foto) -->
     <!-- Puedes cambiar bg-goth-bg/90 por bg-black/80 si lo quieres aún más oscuro -->

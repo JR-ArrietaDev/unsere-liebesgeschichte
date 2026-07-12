@@ -21,13 +21,13 @@ const startExperience = () => {
   <!-- Mantuvimos fixed inset-0 y agregamos las propiedades de fondo -->
   <div 
     class="fixed inset-0 z-50 flex flex-col items-center justify-center px-6 bg-cover bg-center bg-no-repeat"
-    style="background-image: url('/src/assets/Background3.webp');"
+    style="background-image: url('/Background3.webp');"
   >
     
     <!-- Capa de Superposición Oscura (El filtro que oscurece la foto al 90%) -->
     <div class="absolute inset-0 bg-goth-bg/65 z-0"></div>
 
-    <audio ref="bgMusic" src="/assets/tu-cancion.mp3" loop></audio>
+    <audio ref="bgMusic" src="/public/tu-cancion.mp3" loop></audio>
 
     <!-- Contenedor del contenido elevado con relative y z-10 para estar por encima del filtro -->
     <div class="relative z-10 text-center flex flex-col items-center">
